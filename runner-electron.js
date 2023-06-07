@@ -6,7 +6,7 @@ cypress.run({
 })
 .then((results) => {
   const args = {
-    target: process.env.TARGET_TOKEN_ELECTON,
+    target: process.env.TARGET_TOKEN_ELECTRON,
   }
   tesults.results(results, args);
 })
